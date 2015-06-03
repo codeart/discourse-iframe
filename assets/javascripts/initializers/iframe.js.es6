@@ -102,11 +102,8 @@ export default {
 
         if (!this.get("post").get("firstPost")) return;
 
-        var $targets = $post.find(".iframe-embed");
-
-        if (!$targets.length) return;
-
-        var styles = {},
+        var $targets = $post.find(".iframe-embed"),
+            styles = {},
             elements = [];
 
         $targets.each(function() {
