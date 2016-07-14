@@ -3,5 +3,5 @@ Embed custom iframes to Topic#show page
 
 ## Usage
 ```
-[iframe width="100%" height="500px" placement="left/right"]https://www.google.com[/iframe]
+[iframe width="50%" height="500px" placement="right"]https://www.youtube.com/embed/ScMzIvxBSi4[/iframe]
 ```
